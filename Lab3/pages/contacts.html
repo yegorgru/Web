@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacts</title>
+	<meta name="viewport" content="width=width-device, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/contacts.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header class="container-fluid" id="header">
+			<div class="row align-items-center _container">
+				<img class = "col-12 col-sm-6 col-md-3 col-lg-3" src="../images/logo.png" id="logo" height="100" width="100" alt="Wayio logo">
+		        <div class = "col-12 col-sm-6 col-md-3 col-lg-3 p-3">
+			        <p id="title">Wayio</p>
+			        <p id="slogan">Travel without limits!</p>
+		        </div>
+		        <div class = "col-12 col-sm-12 col-md-6 col-lg-6 ml-auto p-3">
+		        	<div id="contacts-feedback">
+				        <p class="contact">+380 (97) 000 00 00</p>
+			            <p class="contact">+380 (98) 000 00 00</p>
+						<button id="feedback">Feedback</button>
+						<div id="form-wrapper" class="fixed-top">
+							<button id="feedback-close" type="button" class="close" aria-label="Close">
+  								<span aria-hidden="true">&times;</span>
+							</button>
+							<form action="" class="pt-2 pb-2">
+								<div id="form-title" class="text-center d-block">Feedback</div>
+								<input type="text" class="d-block p-2 formEntry" required="required" placeholder="Name" />
+								<input type="tel" class="p-2 d-block formEntry" required="required" placeholder="Phone" />
+							    <input type="email" class="p-2 d-block formEntry" required="required" placeholder="Email"/>
+							    <textarea class="p-2 d-block message formEntry" required="required" placeholder="Message"></textarea>
+							    <button id="submit" class="btn d-block w-50 text-white formEntry">
+									Submit
+								</button>
+							</form>
+						</div>
+		        	</div>
+		      	</div>
+	      	</div>
+		</header>
+		<nav id="navigation" class="text-white">
+			<div class="_container">
+				<ul class="d-block d-sm-flex justify-content-center flex-wrap pt-3 pb-3">
+					<li class="m-2"><a href="index.html">Home</a></li>
+					<li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="index.html">Catalogue</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="#">Shipping & Payment</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="price-list.html">Price List</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="contacts.html">Contacts</a></li>
+				 </ul>
+			 </div>
+		</nav>
+		<div id="slider" class="d-none d-sm-block overflow-hidden">
+			<div id="slideshow-container" class="position-relative">
+				<div class="mySlides fade">
+				  <img src="../images/slide1.jpg" class="w-100">
+				  <div class="position-absolute w-100 text-white text-center caption">Enjoy</div>
+				</div>
+				<div class="mySlides fade">
+				  <img src="../images/slide2.jpg" class="w-100">
+				  <div class="position-absolute w-100 text-white text-center caption">Inspire</div>
+				</div>
+				<div class="mySlides fade">
+				  <img src="../images/slide3.jfif" class="w-100">
+				  <div class="position-absolute w-100 text-white text-center caption">Discover</div>
+				</div>
+				<div class="mySlides fade">
+				  <img src="../images/slide4.jpg" class="w-100">
+				  <div class="position-absolute w-100 text-white text-center caption">Travel</div>
+				</div>
+				<a id="prev" class="text-white font-weight-bold">&#10094;</a>
+				<a id="next" class="text-white font-weight-bold">&#10095;</a>
+			</div>
+			<br>
+			<div style="text-align:center">
+			  <span id="first-dot" class="dot"></span> 
+			  <span id="second-dot" class="dot"></span> 
+			  <span id="third-dot" class="dot"></span> 
+			  <span id="fourth-dot" class="dot"></span> 
+			</div>
+		</div>
+		<div id="path-container" class="_container">
+			<div id="path" class="p-2 pb-3">
+				<a href="index.html">Home</a> / Contacts
+			</div>
+		</div>
+		<div id="main" class="container-fluid _container">
+			<div class="p-3">
+				<h2>Office</h2>
+				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.8173158554173!2d30.487664115613473!3d50.38860397946683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8c384542a8d%3A0x748c656298a31708!2z0JPRg9GA0YLQvtC20LjRgtC-0Log4oSWMTYg0JrQndCjINGW0LzQtdC90ZYg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LA!5e0!3m2!1sru!2sua!4v1617299016197!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<h2>Phones</h2>
+				<div>+380 (97) 000 00 00</div>
+				<div>+380 (98) 000 00 00</div>
+				<h2>Email</h2>
+				<div>Wayio@gmail.com</div>
+				<h2>Networks</h2>
+				<div class="m-2">
+					<a class = "social p-2"><i class="bi bi-instagram"></i></a>
+                   	<a class = "social p-2"><i class="bi bi-facebook"></i></a>
+                   	<a class = "social p-2"><i class="bi bi-telegram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="container-fluid _container">
+			<div class="row">
+				<div class="col-12 col-sm-4 mt-3">
+					© Wayio Inc.
+					<br>
+					wayioinfo@gmail.com
+				</div>
+				<div class="d-none d-sm-block col-sm-4 mt-3">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					    <li><a href="index.html">Catalogue</a></li>
+					    <li><a href="#">Shipping & Payment</a></li>
+					    <li><a href="price-list.html">Price List</a></li>
+					    <li><a href="contacts.html">Contacts</a></li>
+					 </ul>
+				</div>
+				<div class="col-12 col-sm-4 text-right mt-3">
+					<a href="https://github.com/yegorgru">website development</a>
+					<br>
+					Yegorgru Co.
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="../scripts/main-script.js"></script>
+</body>
+</html>

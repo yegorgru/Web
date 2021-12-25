@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Price List</title>
+	<meta name="viewport" content="width=width-device, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/price-list.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header class="container-fluid" id="header">
+			<div class="row _container align-items-center">
+				<img class = "col-12 col-sm-6 col-md-3 col-lg-3" src="../images/logo.png" id="logo" height="100" width="100" alt="Wayio logo">
+		        <div class = "col-12 col-sm-6 col-md-3 col-lg-3">
+			        <p id="title">Wayio</p>
+			        <p id="slogan">Travel without limits!</p>
+		        </div>
+		        <div class = "col-12 col-sm-12 col-md-6 col-lg-6 ml-auto p-3">
+		        	<div id="contacts-feedback">
+				        <p class="contact">+380 (97) 000 00 00</p>
+			            <p class="contact">+380 (98) 000 00 00</p>
+						<input type="radio" id="feedback-radio-close" name="feedback-r" checked="checked">
+						<input type="radio" id="feedback-radio" name="feedback-r">
+						<label id="feedback" for="feedback-radio">Feedback</label>
+						<div id="form-wrapper" class="fixed-top">
+							<label id="feedback-close" for="feedback-radio-close">X</label>
+							<form action="" class="pt-2 pb-2">
+								<div id="form-title" class="text-center d-block">Feedback</div>
+								<input type="text" class="d-block p-2 formEntry" required="required" placeholder="Name" />
+								<input type="tel" class="p-2 d-block formEntry" required="required" placeholder="Phone" />
+							    <input type="email" class="p-2 d-block formEntry" required="required" placeholder="Email"/>
+							    <textarea class="p-2 d-block message formEntry" required="required" placeholder="Message"></textarea>
+							    <button id="submit" class="btn d-block w-50 text-white formEntry">
+									Submit
+								</button>
+							</form>
+						</div>
+		        	</div>
+		      	</div>
+	      	</div>
+		</header>
+		<nav id="navigation" class="text-white">
+			<div class="_container">
+				<ul class="d-block d-sm-flex justify-content-center flex-wrap pt-3 pb-3">
+					<li class="m-2"><a href="index.html">Home</a></li>
+					<li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="index.html">Catalogue</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="#">Shipping & Payment</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="price-list.html">Price List</a></li>
+				    <li class="d-none d-sm-block m-2">|</li>
+				    <li class="m-2"><a href="contacts.html">Contacts</a></li>
+				 </ul>
+			 </div>
+		</nav>
+		<div id="slider" class="d-none d-sm-block overflow-hidden bg-white">
+			<figure class="position-relative start-0">
+				<img src="../images/slide1.jpg" alt="slide1" class="float-left">
+				<img src="../images/slide2.jpg" alt="slide2" class="float-left">
+				<img src="../images/slide3.jfif" alt="slide3" class="float-left">
+				<img src="../images/slide4.jpg" alt="slide4" class="float-left">
+				<img src="../images/slide1.jpg" alt="slide1" class="float-left">
+			</figure>
+		</div>
+		<div id="path-container" class="_container">
+			<div id="path" class="p-2 pb-3">
+				<a href="index.html">Home</a> / Contacts
+			</div>
+		</div>
+		<div id="main" class="container-fluid _container">
+			<div class="p-3">
+				<table class="table">
+					<thead>
+						<th class="w-75 pl-3">Name</th>
+						<th class="w-25 pl-3">Price, $</th>
+					</thead>
+					<tr>
+						<td class="w-75 pl-3"><a href="ancient-rome.html">Ancient Rome</a></td>
+						<td class="w-25 pl-3">290</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Extreme in RNPP</a></td>
+						<td class="w-25 pl-3">1000</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Meet Florence</a></td>
+						<td class="w-25 pl-3">260</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Rest in Santorini</a></td>
+						<td class="w-25 pl-3">135</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Tea in Amsterdam</a></td>
+						<td class="w-25 pl-3">199</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Wonderful London</a></td>
+						<td class="w-25 pl-3">299</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Barcelona</a></td>
+						<td class="w-25 pl-3">280</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Iceland - ice and fire</a></td>
+						<td class="w-25 pl-3">179</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Appeasement of Scotland</a></td>
+						<td class="w-25 pl-3">395</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Dreamy Prague</a></td>
+						<td class="w-25 pl-3">200</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Traditions of Ireland</a></td>
+						<td class="w-25 pl-3">150</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Sea & Sun in Nice</a></td>
+						<td class="w-25 pl-3">270</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Turkish fairy tale</a></td>
+						<td class="w-25 pl-3">295</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Naxos Holiday</a></td>
+						<td class="w-25 pl-3">145</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Snowy Switzerland</a></td>
+						<td class="w-25 pl-3">379</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Ukrainian traditions</a></td>
+						<td class="w-25 pl-3">399</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Piece of Madrid</a></td>
+						<td class="w-25 pl-3">100</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Paradise Canaries</a></td>
+						<td class="w-25 pl-3">255</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Bialowieza Forest</a></td>
+						<td class="w-25 pl-3">200</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Mountains of Austria</a></td>
+						<td class="w-25 pl-3">305</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Danube voyage</a></td>
+						<td class="w-25 pl-3">199</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Arts of Dresden</a></td>
+						<td class="w-25 pl-3">300</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Mystical Romania</a></td>
+						<td class="w-25 pl-3">185</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Corn in Odessa</a></td>
+						<td class="w-25 pl-3">50</td>
+					</tr>
+					<tr>
+						<td class="w-75 pl-3"><a href="#">Weekend in Paris</a></td>
+						<td class="w-25 pl-3">399</td>
+					</tr>
+				</table>
+				<div id="download-excel"><a href="../downloads/price-list.xlsx" download>Download in excel</a></div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="container-fluid _container">
+			<div class="row">
+				<div class="col-12 col-sm-4 mt-3">
+					© Wayio Inc.
+					<br>
+					wayioinfo@gmail.com
+				</div>
+				<div class="d-none d-sm-block col-sm-4 mt-3">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					    <li><a href="index.html">Catalogue</a></li>
+					    <li><a href="#">Shipping & Payment</a></li>
+					    <li><a href="price-list.html">Price List</a></li>
+					    <li><a href="contacts.html">Contacts</a></li>
+					 </ul>
+				</div>
+				<div class="col-12 col-sm-4 text-right mt-3">
+					<a href="https://github.com/yegorgru">website development</a>
+					<br>
+					Yegorgru Co.
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

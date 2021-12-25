@@ -1,0 +1,16 @@
+#catalogue-menu ul{
+	font-size: 12px;
+}
+
+#catalogue-menu ul li{
+	list-style-type: disc;
+}
+
+#centerblock li{
+	list-style-type: disc;
+}
+
+#map{
+	width: 90%;
+    height: 300px;
+}

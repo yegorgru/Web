@@ -1,0 +1,65 @@
+#leftblock{
+	padding-left: 10px;
+}
+
+#catalogue-menu a{
+	text-decoration: none;
+}
+
+#catalogue-menu ul{
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+#catalogue-menu ul li{
+	list-style-type: disc;
+}
+
+h1{
+	font-size: 28px;
+}
+
+#centerblock{
+	padding-right: 10px;
+}
+
+#centerblock ul{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+#centerblock li{
+	list-style-type: disc;
+}
+
+#map{
+	width: 90%;
+    height: 300px;
+}
+
+#photo-wrapper{
+	width: 100%;
+}
+
+#photo-wrapper img{
+	width: 80%;
+}
+
+.left{
+	float: left;
+	margin-top: -20px;
+}
+
+.right{
+	float: right;
+	margin-top: -20px;
+}
+
+#first-photo{
+	margin-top: 20px;
+}
+
+#last-photo{
+	margin-bottom: 20px;
+}

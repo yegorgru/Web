@@ -1,0 +1,157 @@
+#leftblock{
+	padding-left: 10px;
+}
+
+#catalogue-menu a{
+	text-decoration: none;
+}
+
+#catalogue-menu ul{
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+#catalogue-menu ul li{
+	list-style-type: disc;
+}
+
+#excel{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+#centerblock{
+	overflow: overlay; 
+}
+
+#trips{
+	position: relative;
+	overflow: overlay;
+	min-height: 800px;
+}
+
+#label-1{
+	position: absolute;
+	bottom: 0px;
+	margin-left: 30%;
+}
+
+#label-2{
+	position: absolute;
+	bottom: 0px;
+	margin-left: 50%;
+}
+
+#label-3{
+	position: absolute;
+	bottom: 0px;
+	margin-left: 70%;
+}
+
+.page{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 95%;
+	min-height: 750px;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	visibility: hidden;
+}
+
+#toggle-1:checked ~ #first-page {
+   visibility: visible;
+}
+
+#toggle-1:checked ~ #label-1 {
+   font-size: 18px;
+   color: red;
+}
+
+#toggle-2:checked ~ #second-page {
+   visibility: visible;
+}
+
+#toggle-2:checked ~ #label-2 {
+   font-size: 18px;
+   color: red;
+}
+
+#toggle-3:checked ~ #third-page {
+   visibility: visible;
+}
+
+#toggle-3:checked ~ #label-3 {
+   font-size: 18px;
+   color: red;
+}
+
+.trip{
+	min-height: 200px;
+	min-width: 100px;
+	background-color: #F9DF74;
+	margin: 5% 5%;
+}
+
+.trip:hover{
+	transform:scale(1.1,1.02);
+    -webkit-transform:scale(1.1,1.02);
+    -moz-transform:scale(1.1,1.02);
+}
+
+.trip-image{
+	width: 80%;
+	height: 60%;
+	margin: 5px 10%;
+}
+
+.trip-title{
+	margin: 5px 10%;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.trip-price{
+	margin: 5px 10%;
+	font-size: 16px;
+}
+
+#motivation{
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	border-top: 2px solid black;
+}
+
+.motiv{
+	width: 50%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+	.trip{
+		min-width: 70px;
+		min-height: 100px;
+	}
+
+	#trip{
+		min-height: 500px;
+	}
+
+	#motivation{
+		display: none;
+	}
+
+	.page{
+		min-height: 450px;
+	}
+}

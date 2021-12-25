@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Recreation Tourism</title>
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/recreation-tourism.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="container">
+				<div id="header-left">
+		            <img src="../images/logo.png" id="logo" alt="Air Way logo">
+		            <div>
+		                <p id="title">Wayio</p>
+		                <p id="slogan">Travel without limits!</p>
+		            </div>
+		        </div>
+		        <div id="header-right">
+		        	<div id="contacts-feedback">
+				        <p class="contact">+380 (97) 000 00 00</p>
+			            <p class="contact">+380 (98) 000 00 00</p>
+						<input type="radio" id="feedback-radio-close" name="feedback-r" checked="checked">
+						<input type="radio" id="feedback-radio" name="feedback-r">
+						<label id="feedback" for="feedback-radio">Feedback</label>
+						<div id="form-wrapper">
+							<label id="feedback-close" for="feedback-radio-close">X</label>
+							<div id="feedback-form">
+								<form action="">
+									<div id="form-title">Feedback</div>
+								    <input type="text" class="formEntry" required="required" placeholder="Name" />
+								    <input type="text" class="formEntry" required="required" placeholder="Phone" />
+								    <input type="text" class="formEntry" required="required" placeholder="Email"/>
+								    <textarea class="message formEntry" required="required" placeholder="Message"></textarea>
+								    <button id="submit" class="formEntry" onclick="thanks()">Submit</button>
+								</form>
+							</div>
+						</div>
+		        	</div>
+		      	</div>
+	      	</div>
+		</header>
+		<nav id="navigation">
+			<div class="container">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="I">|</li>
+				    <li><a href="index.html">Catalogue</a></li>
+				    <li class="I">|</li>
+				    <li><a href="#">Shipping & Payment</a></li>
+				    <li class="I">|</li>
+				    <li><a href="price-list.html">Price List</a></li>
+				    <li class="I">|</li>
+				    <li><a href="contacts.html">Contacts</a></li>
+				 </ul>
+			 </div>
+		</nav>
+		<div id="slider">
+			<figure>
+				<img src="../images/slide1.jpg" alt="slide1">
+				<img src="../images/slide2.jpg" alt="slide2">
+				<img src="../images/slide3.jfif" alt="slide3">
+				<img src="../images/slide4.jpg" alt="slide4">
+				<img src="../images/slide1.jpg" alt="slide1">
+			</figure>
+		</div>
+		<div id="path-container" class="container">
+			<div id="path">
+				<a href="#">Home</a> / <a href="#">Catalogue</a> / Recreation tourism
+			</div>
+		</div>
+		<div id="main" class="container">
+			<aside id="leftblock">
+				<ul id="catalogue-menu">
+					<li><a href="#">Cultural tourism</a></li>
+					<li>
+						<span style="text-decoration: underline;">Recreation tourism</span>
+						<ul>
+							<li style="text-decoration: underline; font-weight: bold">Europe</li>
+							<li><a href="#">Asia</a></li>
+							<li><a href="#">America</a></li>
+							<li><a href="#">Africa</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Sports tourism</a></li>
+					<li><a href="#">Ecotourism</a></li>
+					<li><a href="#">Space tourism</a></li>
+					<li><a href="#">Event tourism</a></li>
+				</ul>
+				<a href="../downloads/price-list.xlsx" download><img src="https://th.bing.com/th?q=Excel+Logo+Wallpaper&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&adlt=moderate&t=1&mw=247" alt="excel" id="excel"></a>
+			</aside>
+			<section id="centerblock">
+				<article id="trips">
+					<input type="radio" id="toggle-1" checked="checked" name="pages">
+					<label id="label-1" class="for-radio" for="toggle-1">1</label>
+					<input type="radio" id="toggle-2" name="pages">
+					<label id="label-2" class="for-radio" for="toggle-2">2</label>
+					<input type="radio" id="toggle-3" name="pages">
+					<label id="label-3" class="for-radio" for="toggle-3">3</label>
+					<div id="first-page" class="page">
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.WTYgkVQ_NY9ENGZupHIwgwHaDC?w=309&h=143&c=7&o=5&pid=1.7" alt="rome" class="trip-image">
+							<a href="ancient-rome.html" class="trip-title">Ancient Rome</a>
+							<div class="trip-price">290$</div>							
+						</div>
+						<div class="trip">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMnJWuIvF5IESqorfAx0nKZJ31jOr8V12xWw&usqp=CAU" alt="varash" class="trip-image">
+							<a href="#" class="trip-title">Extreme in RNPP</a>
+							<div class="trip-price">1'000$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.Y60v50SjRHTZDCZZ3SakbgHaE3?w=278&h=182&c=7&o=5&pid=1.7" alt="florence" class="trip-image">
+							<a  href="#" class="trip-title">Meet Florence</a>
+							<div class="trip-price">260$</div>
+						</div>
+						<div class="trip">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWh6BO6KorpSG7RASR0sL7WwsXh44teyNbVjxP4IoyT3qk1oS0wmN1hhLh2Po23kOWEJk&usqp=CAU" alt="santorini" class="trip-image">
+							<a  href="#" class="trip-title">Rest in Santorini</a>
+							<div class="trip-price">135$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.1CR9sGe34tsMcUC5KVoXwQHaEo?w=279&h=180&c=7&o=5&pid=1.7" alt="amsterdam" class="trip-image">
+							<a href="#" class="trip-title">Tea in Amsterdam</a>
+							<div class="trip-price">199$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.AiNJLamHLhimXtvh3MRbxwHaDe?w=345&h=164&c=7&o=5&pid=1.7" alt="london" class="trip-image">
+							<a href="#" class="trip-title">Wonderful London</a>
+							<div class="trip-price">299$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.H7-wIXJEPZPjPASn08-mYAHaEc?w=321&h=192&c=7&o=5&pid=1.7" alt="barcelona" class="trip-image">
+							<a href="#" class="trip-title">Barcelona</a>
+							<div class="trip-price">280$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.BXydptG6l64vtAr1Lc51cwHaHa?w=160&h=180&c=7&o=5&pid=1.7" alt="iceland" class="trip-image">
+							<a href="#" class="trip-title">Iceland - ice and fire</a>
+							<div class="trip-price">179$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.dRCR8ZUdQ_z9k4GZPDeAMgHaE2?w=241&h=180&c=7&o=5&pid=1.7" alt="scotland" class="trip-image">
+							<a href="#" class="trip-title">Appeasement of Scotland</a>
+							<div class="trip-price">395$</div>	
+						</div>
+					</div>
+					<div id="second-page" class="page">
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.nufyrHI0ahXPTK9RREzOWAHaEo?w=281&h=180&c=7&o=5&pid=1.7" alt="prague" class="trip-image">
+							<a href="#" class="trip-title">Dreamy Prague</a>
+							<div class="trip-price">200$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.7NtAsHEanC2ONGHGhIic1QHaEr?w=285&h=180&c=7&o=5&pid=1.7" alt="ireland" class="trip-image">
+							<a href="#" class="trip-title">Traditions of Ireland</a>
+							<div class="trip-price">150$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.LET7XvaH6iy_iHY1gOLCggHaE7?w=265&h=180&c=7&o=5&pid=1.7" alt="nice" class="trip-image">
+							<a href="#" class="trip-title">Sea & Sun in Nice</a>
+							<div class="trip-price">270$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.UUZwv7ZxniedFTD6TjrVrAHaD4?w=323&h=180&c=7&o=5&pid=1.7" alt="turkey" class="trip-image">
+							<a href="#" class="trip-title">Turkish fairy tale</a>
+							<div class="trip-price">295$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.nMZIYOnqitW00x2YczOe6QHaDF?w=307&h=145&c=7&o=5&pid=1.7" alt="naxos" class="trip-image">
+							<a href="#" class="trip-title">Naxos holiday</a>
+							<div class="trip-price">145$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.Tg0Kbz4VIR2URVY-caIYOQHaEK?w=282&h=180&c=7&o=5&pid=1.7" alt="switzerland" class="trip-image">
+							<a href="#" class="trip-title">Snowy Switzerland</a>
+							<div class="trip-price">379$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.qe-wNG2hy8YfD-zC2iEYMgHaEK?w=302&h=180&c=7&o=5&pid=1.7" alt="ukraine" class="trip-image">
+							<a href="#" class="trip-title">Ukrainian traditions</a>
+							<div class="trip-price">399$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.CcIVwAPDBSrW5m7srHQV1gHaEO?w=299&h=180&c=7&o=5&pid=1.7" alt="marid" class="trip-image">
+							<a href="#" class="trip-title">Piece of Madrid</a>
+							<div class="trip-price">100$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.Oixd1AnaHt5dwXG8qImf7gHaE8?w=259&h=180&c=7&o=5&pid=1.7" alt="canary" class="trip-image">
+							<a href="#" class="trip-title">Paradise Canaries</a>
+							<div class="trip-price">255$</div>
+						</div>
+					</div>
+					<div id="third-page" class="page">
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.zc6QvzKUFuEXc6NRzAlh8wHaE8?w=270&h=180&c=7&o=5&pid=1.7" alt="forest" class="trip-image">
+							<a href="#" class="trip-title">Bialowieza Forest</a>
+							<div class="trip-price">200$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.tYnPJQwTHo8g3pW7V4wW2wHaFx?w=214&h=180&c=7&o=5&pid=1.7" alt="austria" class="trip-image">
+							<a href="#" class="trip-title">Mountains of Austria</a>
+							<div class="trip-price">305$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.7Eew87Lz3_oBj-LRyosX3QHaE8?w=244&h=180&c=7&o=5&pid=1.7" alt="danube" class="trip-image">
+							<a href="#" class="trip-title">Danube voyage</a>
+							<div class="trip-price">199$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.qxV7wZPVHJsgVt0Bv44s3wHaFA?w=248&h=180&c=7&o=5&pid=1.7" alt="dresden" class="trip-image">
+							<a href="#" class="trip-title">Arts of Dresden</a>
+							<div class="trip-price">300$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.5X2KJgo3iUUWAPSoXuWKtwHaEo?w=274&h=180&c=7&o=5&pid=1.7" alt="romania" class="trip-image">
+							<a href="#" class="trip-title">Mystical Romania</a>
+							<div class="trip-price">185$</div>
+						</div>
+						<div class="trip">
+							<img src="https://mnogoigr96.ru/800/600/https/esttat.ru/wp-content/uploads/2020/04/kukuruza2.jpg" alt="odessa" class="trip-image">
+							<a href="#" class="trip-title">Corn in Odessa</a>
+							<div class="trip-price">50$</div>
+						</div>
+						<div class="trip">
+							<img src="https://th.bing.com/th/id/OIP.JaoNRQQ5MGvj0YJhDoxD2QHaEo?w=273&h=180&c=7&o=5&pid=1.7" alt="paris" class="trip-image">
+							<a href="#" class="trip-title">Weekend in Paris</a>
+							<div class="trip-price">399$</div>
+						</div>
+					</div>
+				</article>
+				<article id="motivation">
+					<div class="motiv">
+						<div>When one travels, one can see new places. With travelling, one can explore different places which one has not seen before. One can meet new people there and can talk to them. One can share their stories and can know about their lifestyle.</div>
+						<div>Travelling also lets a person experience different physical features of different places. One can enjoy Sea waves in one place or one can enjoy snowfall at another place.</div>
+					</div>
+					<div class="motiv">
+						<div>Some places have jungles, mountains, waterfalls and other places that have huge buildings, wonders of the world, big industries or malls. Not just this, travelling is also important for mental health.</div>
+						<div>Travelling makes one happy. When one travels with one’s loved ones, one gets a break from routine life and the stress is reduced. Therefore, one must travel from time to time and see the world. It feels connected with other people and nature when one travels.</div>
+					</div>
+				</article>
+			</section>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="container">
+			<div id="company">
+				© Air Way Inc.
+				<br>
+				airwayinfo@gmail.com
+			</div>
+			<div id="footer-menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+				    <li><a href="index.html">Catalogue</a></li>
+				    <li><a href="#">Shipping & Payment</a></li>
+				    <li><a href="price-list.html">Price List</a></li>
+				    <li><a href="contacts.html">Contacts</a></li>
+				 </ul>
+			</div>
+			<div id="development">
+				<a href="https://github.com/yegorgru">website development</a>
+				<br>
+				Yegorgru Co.
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

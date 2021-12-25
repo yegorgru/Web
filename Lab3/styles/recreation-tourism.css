@@ -1,0 +1,100 @@
+#catalogue-menu ul{
+	font-size: 12px;
+}
+
+#catalogue-menu ul li{
+	list-style-type: disc;
+}
+
+#excel{
+	min-width: 40px;
+	max-width: 70px;
+}
+
+#centerblock{
+	padding-bottom: 30px;
+}
+
+.swith-page-button{
+	bottom: 0px;
+	background-color: #FCDDBC;
+	border: none;
+}
+
+#button-1{
+	margin-left: 30%;
+	color: red;
+	font-size: 18px;
+}
+
+#button-2{
+	margin-left: 45%;
+}
+
+#button-3{
+	margin-left: 60%;
+}
+
+.page{
+	visibility: hidden;
+}
+
+#trips{
+    flex-flow: row nowrap;
+}
+
+#first-page{
+	visibility: visible;
+}
+
+#first-page, #second-page, #third-page{
+	box-sizing: border-box;
+    flex: none;
+}
+
+#second-page, #third-page{
+	margin-left: -97%;
+}
+
+.trip{
+	background-color: #F9DF74;
+	height: 90%;
+	min-height: 170px;
+	padding: 5px 5px;
+	font-size: 16px;
+}
+
+.trip:hover{
+	transform:scale(1.1,1.02);
+    -webkit-transform:scale(1.1,1.02);
+    -moz-transform:scale(1.1,1.02);
+}
+
+.trip-image{
+	width: 95%;
+	height: 60%;
+}
+
+#motivation{
+	border-top: 2px solid black;
+	padding-bottom: 20%;
+	margin-right: 10px;
+}
+
+.in-cart-button{
+	background-color: #F9DF74;
+	border: none;
+}
+
+#view-cart-catalogue-button{
+	border: none;
+	border-bottom: 2px dashed #61210F;
+	font-weight: bold;
+	background-color: #FCDDBC;
+	color: #61210F;
+}
+
+#view-cart-catalogue-button:hover{
+	color: white;
+	border-color: white;
+}

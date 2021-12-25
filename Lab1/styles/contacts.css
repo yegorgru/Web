@@ -1,0 +1,25 @@
+#main{
+	display: block;
+	padding-top: 10px;
+}
+
+#main-content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contacts{
+	display: flex;
+}
+
+.network-img{
+	width: 50px;
+	height: 50px;
+	margin: 20px 20px 20px 20px;
+}
+
+#map{
+	width: 90%;
+    height: 300px;
+}

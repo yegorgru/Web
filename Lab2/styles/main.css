@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('../fonts/OpenSansCondensed-Light.ttf');
+}
+
+html, body{
+	height: 100%;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	min-height: 100%;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #61210F;
+}
+
+#wrapper{
+	min-height: 100%;
+    margin-bottom: -150px;
+    padding-bottom: 150px;
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-x repeat-y;
+}
+
+ul {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	color: #61210F;
+}
+
+a:hover{
+	cursor: pointer;
+	color: #EDAE49;
+}
+
+._container{
+	max-width: 980px;
+    margin: auto auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header{
+	background-color: #EDAE49;
+	min-height: 200px;
+}
+
+#header img{
+	height: 150px;
+	width: 200px;
+	min-width: 100px;
+}
+
+#title{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#slogan{
+	font-size: 18px;
+}
+
+#contacts-feedback{
+	text-align: right;
+}
+
+.contact{
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+input[type=radio] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#feedback{
+	border-bottom: 2px dashed #61210F;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+#feedback:hover{
+	color: white;
+	border-color: white;
+}
+
+#form-wrapper{
+	visibility: hidden;
+	width: 30%;
+	z-index: 999;
+	background:rgba(255,255,255,0);
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 150px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#feedback-close{
+	height: 5px;
+	width: 5px;
+	margin-right: -5px;
+	-webkit-appearance: push-button;
+    -moz-appearance: button; 
+}
+
+#feedback-close:hover{
+	cursor: pointer;
+}
+
+#feedback-radio:checked ~ #feedback-close {
+   visibility: visible;
+}
+
+#feedback-radio:checked ~ #form-wrapper {
+    visibility: visible;
+    opacity: 1;
+}
+
+#feedback-radio-close:checked ~ #feedback {
+   visibility: visible;
+}
+
+#form-wrapper form {
+	background: #fff;
+	box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+	border-radius: 5px;
+	max-width: 480px;
+	border-top: 5px solid #0e3721;
+	animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+   font-size: 1.3em;
+}
+
+#form-title{
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 80%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.formEntry {
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 2px;
+    border: none;
+    background-color: #ebebeb;
+    height: 2em;
+}
+
+.formEntry:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 85%;
+    transition: ease 0.5s;
+}
+
+.message {
+    height: 3em;
+}
+
+.message:hover {
+    height: 12em;
+}
+
+#submit {
+    background-color: #EDAE49;
+    font-size: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    height: 2em;
+}
+
+#feedback-form input:placeholder-shown {
+    border: 1px solid red;
+}
+
+#feedback-form textarea:placeholder-shown {
+    border: 1px solid red;
+}
+
+#navigation{
+	background-color: #EA2B1F;
+	font-size: 30px;
+}
+
+#navigation li a{
+	color: white;
+}
+
+#navigation li a:hover{
+	color: #EDAE49;
+}
+
+#slider figure{
+	width: 500%;
+	animation: 20s slider infinite;
+}
+
+#slider figure img{
+	width: 20%;
+}
+
+@keyframes slider{
+	0% {
+		left: 0;
+		opacity: 1;
+	}
+	20%{
+		left: 0;
+		opacity: 1;
+	}
+	25%{
+		left: -100%;
+		opacity: 0.7;
+	}
+	45%{
+		left: -100%;
+		opacity: 1;
+	}
+	50%{
+		left: -200%;
+		opacity: 0.7;
+	}
+	70%{
+		left: -200%;
+		opacity: 1;
+	}
+	75%{
+		left: -300%;
+		opacity: 0.7;
+	}
+	95%{
+		left: -300%;
+		opacity: 1;
+	}
+	100%{
+		left: -400%;
+		opacity: 0.7;
+	}
+}
+
+#path-container{
+	background-color: #FCDDBC;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+#main{
+	background-color: #FCDDBC;
+}
+
+#footer{
+	min-height: 150px;
+	color: white;
+	background-color: #61210F;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: #EDAE49;
+}
